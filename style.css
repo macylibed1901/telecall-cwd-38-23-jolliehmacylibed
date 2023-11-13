@@ -1,0 +1,29 @@
+h1, h2, h3, h4, h5, h6, p{
+  font-weight: 200;
+}
+
+body {
+  background-color: #b0e0e6;
+ }
+
+ .image-container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100%;
+  position: center;
+}
+
+.title-text {
+  font-size: 20px;
+  font-family: Courier, monospace;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  /* Adjust styles for screens with a maximum width of 600 pixels (typical for mobile devices) */
+  .title-text {
+    font-size: 16px; /* Adjust font size for smaller screens */
+  }
+}
